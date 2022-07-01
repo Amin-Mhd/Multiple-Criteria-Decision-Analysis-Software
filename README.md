@@ -75,8 +75,3 @@ Alternatives_color= 3 1 2
 enddata
 
 ```
-
-### Example 2: Group Decision Making
-typing...
-### Example 3: Calculate the weight of the criteria
-typing...
