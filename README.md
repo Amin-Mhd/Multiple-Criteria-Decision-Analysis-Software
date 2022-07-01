@@ -77,8 +77,10 @@ enddata
 ```
 
 ```
-@FOR(Experts_Criteria(Ex,Cr):     @for(Alternatives(r)|r#ne#3:Experts_color(Ex)*Criteria_color(Ex,Cr)*r*(W(Ex,Cr,Alternatives_color(Ex,Cr,r))-W(Ex,Cr,(Alternatives_color(Ex,Cr,r+1))))>=Z));
+@FOR(Experts_Criteria(Ex,Cr):
+@for(Alternatives(r)|r#ne#3:Experts_color(Ex)*Criteria_color(Ex,Cr)*r*(W(Ex,Cr,Alternatives_color(Ex,Cr,r))-W(Ex,Cr,(Alternatives_color(Ex,Cr,r+1))))>=Z));
 
 
-@FOR(Experts_Criteria(Ex,Cr):     @for(Alternatives(r)|r#eq#3:Experts_color(Ex)*Criteria_color(Ex,Cr)*r*(W(Ex,Cr,Alternatives_color(Ex,Cr,r)))>=Z));
+@FOR(Experts_Criteria(Ex,Cr):
+@for(Alternatives(r)|r#eq#3:Experts_color(Ex)*Criteria_color(Ex,Cr)*r*(W(Ex,Cr,Alternatives_color(Ex,Cr,r)))>=Z));
 ```
