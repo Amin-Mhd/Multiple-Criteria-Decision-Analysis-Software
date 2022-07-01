@@ -11,7 +11,9 @@ Here, we aim to buy a new car based on some pre-defined criteria. The decision p
 ![This is an image](https://ordinalpriorityapproach.com/images/7.jpg)
 
 The expert believes that the preference of the criteria are as follows:
+
 P > S > G > F
+
 Moreover, the expert suggested the following preference for each car in each criterion:
 
 In criterion P : A > C > B
