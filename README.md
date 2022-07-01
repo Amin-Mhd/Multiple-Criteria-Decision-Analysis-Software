@@ -24,6 +24,20 @@ In criterion G : B > C > A
 
 In criterion F : B > A > C
 
+```
+sets:
+
+Experts/E/:Experts_color,W_Experts;
+Criteria/G S P F/:W_Criteria;
+Alternatives/A B C/:W_Alternatives;
+Experts_Criteria(Experts,Criteria):Criteria_color;
+Experts_Criteria_Alternatives(Experts,Criteria,Alternatives):Alternatives_color,W;
+Experts_Alternatives(Experts,Alternatives);
+Criteria_Alternatives(Criteria,Alternatives);
+
+endsets
+```
+
 ### Example 2: Group Decision Making
 ................. Work in process
 ### Example 3: Calculate the weight of the criteria
