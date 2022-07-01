@@ -24,7 +24,7 @@ In criterion G : B > C > A
 
 In criterion F : B > A > C
 
-Since there is one expert, the problem is individual decision-making. Therefore, in the 
+Since there is one expert, the problem is individual decision-making. Therefore, in the "1-Individual Decision-Making.lg4", we define the criteria, and alternatives as follows:
 
 ```
 sets:
