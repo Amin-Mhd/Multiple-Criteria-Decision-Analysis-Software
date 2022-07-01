@@ -41,6 +41,6 @@ endsets
 ```
 
 ### Example 2: Group Decision Making
-................. Work in process
+typing...
 ### Example 3: Calculate the weight of the criteria
-...............  Work in process
+typing...
