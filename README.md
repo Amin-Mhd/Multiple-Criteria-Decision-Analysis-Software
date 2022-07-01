@@ -10,7 +10,7 @@ Here, we aim to buy a new car based on some pre-defined criteria. The decision p
 
 ![This is an image](https://ordinalpriorityapproach.com/images/7.jpg)
 
-The expert beileves that the preference of the criteria are as follows:
+The expert believes that the preference of the criteria are as follows:
 P > S > G > F
 
 ### Example 2: Group Decision Making
