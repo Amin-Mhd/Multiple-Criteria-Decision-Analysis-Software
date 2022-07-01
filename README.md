@@ -39,7 +39,8 @@ Criteria_Alternatives(Criteria,Alternatives);
 
 endsets
 ```
-for your problem, you need to change the name or number of criteria and alternatives. There is no need to change other things in this part.
+for your problem, you need to change the name or number of criteria and alternatives. There is no need to change other things in this part. Now, we are going to enter the input data regarding the criteria and alternatives.
+Since the problem is individual decision making, the preference of the expert should be defined as follows: 
 
 ```
 data:
@@ -49,6 +50,7 @@ Experts_color= 1;
 enddata
 ```
 
+After that, the preferences of the criteria should be defined as follows (The order of input data must be the same as the sets):
 ```
 data:
 
@@ -57,6 +59,8 @@ Criteria_color= 3 2 1 4;
 
 enddata
 ```
+
+Then, we should add the preferences of the alternatives as follows as well. Since we have four criteria, there are four rows. First row is related to criteion G.
 
 ```
 data:
