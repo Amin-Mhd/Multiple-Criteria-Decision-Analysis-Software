@@ -93,4 +93,4 @@ Ataei, Y., Mahmoudi, A., Feylizadeh, M. R., & Li, D. F. (2020). Ordinal Priority
 
 ### Contact
 
-If you have any problem executing the code, contact Amin Mahmoudi, pmp.mahmoudi@gmail.com
+If you have any problem executing the code, contact Amin Mahmoudi: pmp.mahmoudi@gmail.com
