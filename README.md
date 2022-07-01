@@ -24,6 +24,8 @@ In criterion G : B > C > A
 
 In criterion F : B > A > C
 
+Since there is one expert, the problem is individual decision-making. Therefore, in the 
+
 ```
 sets:
 
