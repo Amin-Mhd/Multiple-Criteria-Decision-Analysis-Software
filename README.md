@@ -28,8 +28,8 @@ In criterion F : B > A > C
 sets:
 
 Experts/E/:Experts_color,W_Experts;
-Criteria/**G S P F/:W_Criteria;
-Alternatives/**A B C/:W_Alternatives;
+Criteria/**G S P F**/:W_Criteria;
+Alternatives/**A B C**/:W_Alternatives;
 Experts_Criteria(Experts,Criteria):Criteria_color;
 Experts_Criteria_Alternatives(Experts,Criteria,Alternatives):Alternatives_color,W;
 Experts_Alternatives(Experts,Alternatives);
