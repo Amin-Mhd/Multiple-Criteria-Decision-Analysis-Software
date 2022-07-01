@@ -91,15 +91,15 @@ Next, you need to update the number of the alternatives in the following codes (
 After that, if we solve the problem, the results will be obtained as follows:
 
 <pre>
-W_EXPERTS( E)            1.000000             0.000000
-W_CRITERIA( G)           0.1600000            0.000000
-W_CRITERIA( S)           0.2400000            0.000000
-W_CRITERIA( P)           0.4800000            0.000000
-W_CRITERIA( F)           0.1200000            0.000000
+W_EXPERTS( E)            1.000000            
+W_CRITERIA( G)           0.1600000            
+W_CRITERIA( S)           0.2400000           
+W_CRITERIA( P)           0.4800000           
+W_CRITERIA( F)           0.1200000            
 
-W_ALTERNATIVES( A)       0.4111111            0.000000
-W_ALTERNATIVES( B)       0.2511111            0.000000
-W_ALTERNATIVES( C)       0.3377778            0.000000
+W_ALTERNATIVES( A)       0.4111111           
+W_ALTERNATIVES( B)       0.2511111           
+W_ALTERNATIVES( C)       0.3377778           
 </pre>
 
 ### References
