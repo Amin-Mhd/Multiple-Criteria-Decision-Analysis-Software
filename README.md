@@ -39,6 +39,38 @@ Criteria_Alternatives(Criteria,Alternatives);
 
 endsets
 ```
+for your problem, you need to change the name or number of criteria and alternatives. There is no need to change other things in this part.
+
+```
+data:
+
+Experts_color= 1;
+
+enddata
+```
+
+```
+data:
+
+Experts_color= 1;
+Criteria_color= 3 2 1 4;
+
+enddata
+```
+
+```
+data:
+
+Experts_color= 1;
+Criteria_color= 3 2 1 4;
+Alternatives_color= 3 1 2 
+                    2 3 1
+                    1 3 2
+                    2 1 3;
+
+enddata
+
+```
 
 ### Example 2: Group Decision Making
 typing...
