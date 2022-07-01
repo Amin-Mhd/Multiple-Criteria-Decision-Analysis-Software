@@ -76,6 +76,8 @@ enddata
 
 ```
 
+Next, you need to update the number of the alternatives in the following codes:
+
 ```
 @FOR(Experts_Criteria(Ex,Cr):
 @for(Alternatives(r)|r#ne#3:Experts_color(Ex)*Criteria_color(Ex,Cr)*r*(W(Ex,Cr,Alternatives_color(Ex,Cr,r))-W(Ex,Cr,(Alternatives_color(Ex,Cr,r+1))))>=Z));
