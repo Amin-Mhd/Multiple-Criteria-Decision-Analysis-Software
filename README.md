@@ -26,7 +26,7 @@ In criterion F : B > A > C
 
 Since there is one expert, the problem is individual decision-making. Therefore, in the **1-Individual Decision-Making.lg4**, we define the criteria, and alternatives as follows:
 
-```
+<pre>
 sets:
 
 Experts/E/:Experts_color,W_Experts;
@@ -38,7 +38,7 @@ Experts_Alternatives(Experts,Alternatives);
 Criteria_Alternatives(Criteria,Alternatives);
 
 endsets
-```
+</pre>
 for your problem, you need to change the name or number of criteria and alternatives. There is no need to change other things in this part. Now, we are going to enter the input data regarding the criteria and alternatives.
 Since the problem is individual decision making, the preference of the expert should be defined as follows: 
 
