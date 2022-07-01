@@ -45,7 +45,7 @@ Since the problem is individual decision making, the preference of the expert sh
 <pre>
 data:
 
-Experts_color= 1;
+Experts_color= <b>1</b>;
 
 enddata
 </pre>
