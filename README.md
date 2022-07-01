@@ -61,7 +61,7 @@ Criteria_color= <b>3 2 1 4</b>;
 enddata
 </pre>
 
-Then, we should add the preferences of the alternatives as follows as well. Since we have four criteria, there are four rows. First row is related to criteion G.
+Then, we should add the preferences of the alternatives as follows as well. Since we have four criteria, there are four rows. First row is related to criterion G.
 
 <pre>
 data:
