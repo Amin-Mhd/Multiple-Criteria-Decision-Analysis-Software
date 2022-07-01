@@ -31,7 +31,7 @@ sets:
 
 Experts/E/:Experts_color,W_Experts;
 Criteria/<b>G S P F</b>/:W_Criteria;
-Alternatives/A B C/:W_Alternatives;
+Alternatives/<b>A B C</b>/:W_Alternatives;
 Experts_Criteria(Experts,Criteria):Criteria_color;
 Experts_Criteria_Alternatives(Experts,Criteria,Alternatives):Alternatives_color,W;
 Experts_Alternatives(Experts,Alternatives);
@@ -42,50 +42,51 @@ endsets
 for your problem, you need to change the name or number of criteria and alternatives. There is no need to change other things in this part. Now, we are going to enter the input data regarding the criteria and alternatives.
 Since the problem is individual decision making, the preference of the expert should be defined as follows: 
 
-```
+<pre>
 data:
 
 Experts_color= 1;
 
 enddata
-```
+</pre>
 
 After that, the preferences of the criteria should be defined as follows (The order of input data must be the same as the sets):
-```
+
+<pre>
 data:
 
 Experts_color= 1;
-Criteria_color= 3 2 1 4;
+Criteria_color= <b>3 2 1 4</b>;
 
 enddata
-```
+</pre>
 
 Then, we should add the preferences of the alternatives as follows as well. Since we have four criteria, there are four rows. First row is related to criteion G.
 
-```
+<pre>
 data:
 
 Experts_color= 1;
 Criteria_color= 3 2 1 4;
-Alternatives_color= 3 1 2 
+Alternatives_color= <b>3 1 2 
                     2 3 1
                     1 3 2
-                    2 1 3;
+                    2 1 3</b>;
 
 enddata
 
-```
+</pre>
 
 Next, you need to update the number of the alternatives in the following codes:
 
-```
+<pre>
 @FOR(Experts_Criteria(Ex,Cr):
-@for(Alternatives(r)|r#ne#3:Experts_color(Ex)*Criteria_color(Ex,Cr)*r*(W(Ex,Cr,Alternatives_color(Ex,Cr,r))-W(Ex,Cr,(Alternatives_color(Ex,Cr,r+1))))>=Z));
+@for(Alternatives(r)|r#ne#<b>3</b>:Experts_color(Ex)*Criteria_color(Ex,Cr)*r*(W(Ex,Cr,Alternatives_color(Ex,Cr,r))-W(Ex,Cr,(Alternatives_color(Ex,Cr,r+1))))>=Z));
 
 
 @FOR(Experts_Criteria(Ex,Cr):
-@for(Alternatives(r)|r#eq#3:Experts_color(Ex)*Criteria_color(Ex,Cr)*r*(W(Ex,Cr,Alternatives_color(Ex,Cr,r)))>=Z));
-```
+@for(Alternatives(r)|r#eq#<b>3</b>:Experts_color(Ex)*Criteria_color(Ex,Cr)*r*(W(Ex,Cr,Alternatives_color(Ex,Cr,r)))>=Z));
+</pre>
 
 ### References
 
