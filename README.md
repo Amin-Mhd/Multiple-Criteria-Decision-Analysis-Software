@@ -9,6 +9,10 @@ The Ordinal Priority Approach is a novel Multiple Criteria Decision Analysis met
 Here, we aim to buy a new car based on some pre-defined criteria. The decision problem is shown on the following figure:
 
 ![This is an image](https://ordinalpriorityapproach.com/images/7.jpg)
+
+The expert beileves that the preference of the criteria are as follows:
+P > S > G > F
+
 ### Example 2: Group Decision Making
 ................. Work in process
 ### Example 3: Calculate the weight of the criteria
