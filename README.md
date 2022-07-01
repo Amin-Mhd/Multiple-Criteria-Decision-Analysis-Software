@@ -84,3 +84,11 @@ enddata
 @FOR(Experts_Criteria(Ex,Cr):
 @for(Alternatives(r)|r#eq#3:Experts_color(Ex)*Criteria_color(Ex,Cr)*r*(W(Ex,Cr,Alternatives_color(Ex,Cr,r)))>=Z));
 ```
+
+### References
+
+Ataei, Y., Mahmoudi, A., Feylizadeh, M. R., & Li, D. F. (2020). Ordinal Priority Approach (OPA) in Multiple Attribute Decision-Making. Applied Soft Computing, 86, 105893.
+
+### Contact
+
+If you have any problem executing the code, contact Amin Mahmoudi, pmp.mahmoudi@gmail.com
