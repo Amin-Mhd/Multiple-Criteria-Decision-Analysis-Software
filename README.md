@@ -105,7 +105,7 @@ W_ALTERNATIVES( C)       0.3377778
 
 ### References
 
-Ataei, Y., Mahmoudi, A., Feylizadeh, M. R., & Li, D. F. (2020). Ordinal Priority Approach (OPA) in Multiple Attribute Decision-Making. Applied Soft Computing, 86, 105893.
+Ataei, Y., Mahmoudi, A., Feylizadeh, M. R., & Li, D. F. (2020). [Ordinal Priority Approach (OPA) in Multiple Attribute Decision-Making (https://doi.org/10.1016/j.asoc.2019.105893). Applied Soft Computing, 86, 105893.
 
 ### Contact
 
